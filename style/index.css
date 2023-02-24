@@ -1,0 +1,27 @@
+#board .board-row {
+  display: flex;
+  justify-content: center;
+}
+#board .board-row .cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  position: relative;
+  background-color: #ffe48d;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stone {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px #414141;
+}
+.WHITE_stone {
+  background-color: #fff;
+}
+.BLACK_stone {
+  background-color: #000;
+}
